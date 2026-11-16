@@ -116,14 +116,6 @@ Setelah server aktif, buka browser Google Chrome / Microsoft Edge di komputer An
 
 Anda dapat menambah cabang toko baru, membuat akun kasir tambahan, atau mereset password melalui menu visual terminal:
 
-### Cara Menggunakan:
-Cukup **klik dua kali file `KELOLA AKUN.bat`** di Windows Explorer.
-
-Atau jalankan melalui PowerShell/CMD:
-```powershell
-call "KELOLA AKUN.bat"
-```
-
 ### Perintah Cepat CLI Windows:
 ```powershell
 # Melihat seluruh daftar toko dan akun kasir
