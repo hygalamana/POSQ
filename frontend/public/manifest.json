@@ -1,0 +1,38 @@
+{
+  "name": "PosQ - Point of Sale",
+  "short_name": "PosQ",
+  "description": "Sistem POS Terpadu Modern",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#FFF3E6",
+  "theme_color": "#FF7A00",
+  "orientation": "any",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

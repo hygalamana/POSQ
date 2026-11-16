@@ -1,0 +1,42 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 9990",
+    "build": "vite build",
+    "preview": "vite preview --port 9990"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.4.0",
+    "@tanstack/react-query": "^5.101.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "axios": "^1.18.0",
+    "exceljs": "^4.4.0",
+    "file-saver": "^2.0.5",
+    "jsqr": "^1.4.0",
+    "lucide-react": "^1.21.0",
+    "qrcode.react": "^4.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.79.0",
+    "react-hot-toast": "^2.6.0",
+    "react-is": "^19.3.0",
+    "react-router-dom": "^7.18.4",
+    "recharts": "^3.8.1",
+    "vite": "^8.3.1",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^20.0.0",
+    "@types/qrcode.react": "^1.0.5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.7.0"
+  }
+}

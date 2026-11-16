@@ -1,0 +1,26 @@
+{
+  "name": "kasirku",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "start": "npm run start -w backend",
+    "dev": "npx concurrently \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w frontend && npm run build -w backend",
+    "user:menu": "node backend/kelola-akun-cli.js",
+    "user:list": "node backend/daftar-akun.js",
+    "user:create": "node backend/buat-toko.js",
+    "user:add": "node backend/tambah-akun.js",
+    "user:reset": "node backend/reset-password.js",
+    "user:role": "node backend/user-role.js",
+    "user:delete": "node backend/hapus-akun.js",
+    "daftar-akun": "node backend/daftar-akun.js",
+    "buat-toko": "node backend/buat-toko.js",
+    "tambah-akun": "node backend/tambah-akun.js",
+    "reset-password": "node backend/reset-password.js",
+    "hapus-akun": "node backend/hapus-akun.js"
+  }
+}
