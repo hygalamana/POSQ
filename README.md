@@ -112,23 +112,6 @@ Setelah server aktif, buka browser Google Chrome / Microsoft Edge di komputer An
 
 ---
 
-## ⚙️ Fitur Otomatisasi Kasir Windows (File .bat)
-
-Project ini dilengkapi skrip otomatisasi bawaan Windows untuk memudahkan operasional toko:
-
-1. **`JALANKAN KASIR.bat`**:
-   * Klik 2x file ini untuk menyalakan server kasir dan otomatis membuka browser Google Chrome / Edge ke `http://localhost:9990`.
-2. **`PASANG STARTUP OTOMATIS.bat`**:
-   * Klik file ini sekali untuk mendaftarkan aplikasi ke Startup Windows. Setiap kali komputer kasir dinyalakan, server kasir dan browser akan langsung otomatis terbuka tanpa perlu diklik manual.
-3. **`HAPUS STARTUP OTOMATIS.bat`**:
-   * Untuk menghapus kasir dari daftar startup Windows jika sudah tidak diperlukan.
-4. **`PASANG AUTO NYALA JAM PAGI (SLEEP MODE).bat`**:
-   * Mengatur Windows Task Scheduler agar komputer kasir otomatis bangun dari mode *Sleep* di jam buka toko (misal jam 07:30 pagi) dan langsung menyalakan kasir.
-5. **`HAPUS AUTO NYALA JAM PAGI.bat`**:
-   * Menghapus jadwal bangun otomatis dari Windows Task Scheduler.
-
----
-
 ## 🛠️ Menu Kelola Akun & Cabang Toko Windows
 
 Anda dapat menambah cabang toko baru, membuat akun kasir tambahan, atau mereset password melalui menu visual terminal:
